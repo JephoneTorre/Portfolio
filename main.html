@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Header with Theme Toggle</title>
+  <link rel="stylesheet" href="main.css">
+  <!-- Importing Cocogoose Pro Block font -->
+  <style>
+    @font-face {
+      font-family: 'Cocogoose Pro Block Gradient';
+      src: url('path-to-your-font-directory/CocogooseProBlock.ttf') format('truetype');
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#blog">Blog</a></li>
+      </ul>
+    </nav>
+    <div class="theme-toggle">
+      <span class="sun-icon">
+        <img src="images/sun.png" alt="Sun Icon">
+      </span>
+      <label class="toggle">
+        <input type="checkbox" id="theme-switch">
+        <span class="slider"></span>
+      </label>
+      <span class="moon-icon">
+        <img src="images/moon.png" alt="Moon Icon">
+      </span>
+    </div>
+  </header>
+
+  <main>
+    <div class="center-image-container">
+      <img src="images/download-unscreen.gif" alt="Centered GIF" class="centered-image">
+    </div>
+    <div class="text-below">
+      <h1>(FLOW)ER</h1>
+      <h1>WEB DEVELOPMENT</h1>
+    </div>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
